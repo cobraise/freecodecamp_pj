@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #011F5B;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Serif', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    font-size: 18px;
+    padding: 10px 0;
+    background-color: #efecec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav li {
+    margin: 10px;
+}
+
+header a:hover{
+    color: #011f5b8a;
+}
+/**/
+
+#introduction #title{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#introduction h1{
+    font-size: 46px;
+}
+
+#introduction #img-div{
+    padding: 20px 0;
+}
+#introduction #img-div img{
+    padding: 10px 100px;
+    width: 100%;
+}
+
+#introduction #img-div #img-caption{
+    font-size: 14px;
+    text-align: center;
+}
+
+#introduction #tribute-info{
+    padding: 10px 100px;
+    text-indent: 50px;
+}
+
+ #container{
+    padding: 20px 0;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #011F5B;color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #fff;
+    border: 3px solid #011F5B;color: #011F5B;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
